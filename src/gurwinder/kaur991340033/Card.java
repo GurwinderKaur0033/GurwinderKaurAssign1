@@ -22,7 +22,7 @@ public class Card {
         this.suit = SUITS[suit-1];
         this.value= value; 
     }
-    /*
+    
     @Override
     public String toString(){
     
@@ -38,7 +38,7 @@ public class Card {
         }
         return equals;
     } 
-*/
+
     public String getSuit() {
         return suit;
     }
