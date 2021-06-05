@@ -36,7 +36,7 @@ public class CardTrick {
         System.out.println("Enter suit 1 is Hearts, 2 is Diamonds, 3 is Spades,4 is Clubs");
         int in2 = suitValue.nextInt(); */
         int luckyCard=1;
-        int suitNum=1;
+        int suitNum=4;
         Card userCard = new Card(luckyCard, suitNum);
     //  cardValue.close();
     //  suitValue.close();
@@ -49,9 +49,9 @@ public class CardTrick {
         }
 
         if (found) {
-            System.out.println("Card Found");
+            System.out.println("Card is Found");
         } else {
-            System.out.println("Card Not Found");
+            System.out.println("Card is Not Found");
         }
        
     }
