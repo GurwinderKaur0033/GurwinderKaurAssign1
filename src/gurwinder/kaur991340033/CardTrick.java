@@ -29,15 +29,17 @@ public class CardTrick {
 
         }
 
-        Scanner cardValue = new Scanner(System.in);
+      /*  Scanner cardValue = new Scanner(System.in);
         System.out.println("Enter Card Value between 1-13");
         int in = cardValue.nextInt();
         Scanner suitValue = new Scanner(System.in);
         System.out.println("Enter suit 1 is Hearts, 2 is Diamonds, 3 is Spades,4 is Clubs");
-        int in2 = suitValue.nextInt();
-        Card userCard = new Card(in2, in2);
-        cardValue.close();
-        suitValue.close();
+        int in2 = suitValue.nextInt(); */
+        int in=1;
+        int in2=1;
+        Card userCard = new Card(in1, in2);
+    //  cardValue.close();
+    //  suitValue.close();
 
         Boolean found = false;
         for (int i = 0; i < magicHand.length; i++) {
