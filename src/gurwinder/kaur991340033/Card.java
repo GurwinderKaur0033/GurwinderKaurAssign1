@@ -15,16 +15,33 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
-    /**
-     * @return the suit
-     */
+    
+   
+    public Card(int suit, int value) 
+    {
+        this.suit = SUITS[suit-1];
+        this.value= value; 
+    }
+    /*
+    @Override
+    public String toString(){
+    
+       return "SUIT:" +suit +"\nVALUE: " +value;
+    
+    }
+    @Override
+    public boolean equals(Object o){
+        Boolean equals= false; 
+        Card c= (Card)o;
+        if(c.suit.equals(this.suit) && c.value== this.value){
+            equals = true; 
+        }
+        return equals;
+    } 
+*/
     public String getSuit() {
         return suit;
     }
-
-    /**
-     * @param suit the suit to set
-     */
     public void setSuit(String suit) {
         this.suit = suit;
     }
