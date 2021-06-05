@@ -28,7 +28,7 @@ public class CardTrick {
             magicHand[i] = c;
 
         }
-/*
+
         Scanner cardValue = new Scanner(System.in);
         System.out.println("Enter Card Value between 1-13");
         int in = cardValue.nextInt();
@@ -51,7 +51,7 @@ public class CardTrick {
         } else {
             System.out.println("Card Not Found");
         }
-       */
+       
     }
 
 }
